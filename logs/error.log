@@ -1,0 +1,660 @@
+2024-10-03T02:18:13.055Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-03T02:19:15.386Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-03T02:20:30.269Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-03T16:06:15.890Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-03T16:08:03.498Z [31merror[39m: UnProcessableError: User with email already exists
+    at UserService.createUser (file:///Users/mac/Projects/event-api/src/user/service/user.service.js:20:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signup (file:///Users/mac/Projects/event-api/src/user/controllers/signup.js:14:22)
+2024-10-03T16:08:28.818Z [31merror[39m: ConflictError: User with email already exists
+    at UserService.createUser (file:///Users/mac/Projects/event-api/src/user/service/user.service.js:14:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signup (file:///Users/mac/Projects/event-api/src/user/controllers/signup.js:14:22)
+2024-10-03T16:08:43.777Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-03T16:14:13.723Z [31merror[39m: ConflictError: User with email already exists
+    at UserService.createUser (file:///Users/mac/Projects/event-api/src/user/service/user.service.js:15:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signup (file:///Users/mac/Projects/event-api/src/user/controllers/signup.js:14:22)
+2024-10-03T16:14:20.842Z [31merror[39m: UnProcessableError: notNull Violation: Auth.userId cannot be null
+    at UserService.createUser (file:///Users/mac/Projects/event-api/src/user/service/user.service.js:27:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signup (file:///Users/mac/Projects/event-api/src/user/controllers/signup.js:14:22)
+2024-10-03T16:14:47.159Z [31merror[39m: ConflictError: User with email already exists
+    at UserService.createUser (file:///Users/mac/Projects/event-api/src/user/service/user.service.js:15:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signup (file:///Users/mac/Projects/event-api/src/user/controllers/signup.js:14:22)
+2024-10-03T16:14:59.917Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-03T16:15:56.974Z [31merror[39m: ConflictError: User with email already exists
+    at UserService.createUser (file:///Users/mac/Projects/event-api/src/user/service/user.service.js:15:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signup (file:///Users/mac/Projects/event-api/src/user/controllers/signup.js:14:22)
+2024-10-03T16:17:58.992Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-03T17:02:19.988Z [31merror[39m: ConflictError: User with email already exists
+    at UserService.createUser (file:///Users/mac/Projects/event-api/src/user/service/user.service.js:26:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signup (file:///Users/mac/Projects/event-api/src/user/controllers/signup.js:14:22)
+2024-10-03T17:02:22.305Z [31merror[39m: ConflictError: User with email already exists
+    at UserService.createUser (file:///Users/mac/Projects/event-api/src/user/service/user.service.js:26:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signup (file:///Users/mac/Projects/event-api/src/user/controllers/signup.js:14:22)
+2024-10-03T17:02:29.593Z [31merror[39m: ConflictError: User with email already exists
+    at UserService.createUser (file:///Users/mac/Projects/event-api/src/user/service/user.service.js:26:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signup (file:///Users/mac/Projects/event-api/src/user/controllers/signup.js:14:22)
+2024-10-03T17:04:09.913Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-04T00:11:01.684Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T00:11:46.333Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T00:15:54.134Z [31merror[39m: token expired
+2024-10-04T09:11:48.609Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-04T09:39:20.437Z [31merror[39m: ConflictError: User with email already exists
+    at UserService.createUser (file:///Users/mac/Projects/event-api/src/user/service/user.service.js:16:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signup (file:///Users/mac/Projects/event-api/src/user/controllers/signup.js:14:22)
+2024-10-04T09:40:09.049Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-04T10:18:13.090Z [31merror[39m: NotFoundError: request path "/api/event/create" not found for POST method.
+    at /Users/mac/Projects/event-api/src/core/middlewares/notFoundErrorHandler.js:6:7
+    at Layer.handle [as handle_request] (/Users/mac/Projects/event-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:265:14)
+    at /Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:265:14)
+    at Function.handle (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Projects/event-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Projects/event-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mac/Projects/event-api/node_modules/body-parser/lib/types/urlencoded.js:85:7)
+    at Layer.handle [as handle_request] (/Users/mac/Projects/event-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/mac/Projects/event-api/node_modules/express-rate-limit/dist/index.mjs:724:7
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /Users/mac/Projects/event-api/node_modules/express-rate-limit/dist/index.mjs:622:5
+2024-10-04T10:19:12.355Z [31merror[39m: NotFoundError: request path "/api/event/create" not found for POST method.
+    at /Users/mac/Projects/event-api/src/core/middlewares/notFoundErrorHandler.js:6:7
+    at Layer.handle [as handle_request] (/Users/mac/Projects/event-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:265:14)
+    at /Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:646:15
+    at next (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:265:14)
+    at Function.handle (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Projects/event-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/mac/Projects/event-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/mac/Projects/event-api/node_modules/body-parser/lib/types/urlencoded.js:85:7)
+    at Layer.handle [as handle_request] (/Users/mac/Projects/event-api/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:328:13)
+    at /Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/mac/Projects/event-api/node_modules/express/lib/router/index.js:280:10)
+    at /Users/mac/Projects/event-api/node_modules/express-rate-limit/dist/index.mjs:724:7
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at /Users/mac/Projects/event-api/node_modules/express-rate-limit/dist/index.mjs:622:5
+2024-10-04T10:21:51.796Z [31merror[39m: jwt must be provided
+2024-10-04T10:21:51.818Z [31merror[39m: NotFoundError: Event not found
+    at _callee2$ (/Users/mac/Projects/event-api/src/event/services/event.service.js:22:15)
+    at call (/Users/mac/Projects/event-api/src/event/services/event.service.js:2:1)
+    at Generator.tryCatch (/Users/mac/Projects/event-api/src/event/services/event.service.js:2:1)
+    at Generator._invoke [as next] (/Users/mac/Projects/event-api/src/event/services/event.service.js:2:1)
+    at asyncGeneratorStep (/Users/mac/Projects/event-api/src/event/services/event.service.js:2:1)
+    at asyncGeneratorStep (/Users/mac/Projects/event-api/src/event/services/event.service.js:2:1)
+2024-10-04T10:22:33.668Z [31merror[39m: jwt must be provided
+2024-10-04T10:22:33.690Z [31merror[39m: NotFoundError: Event not found
+    at _callee2$ (/Users/mac/Projects/event-api/src/event/services/event.service.js:22:15)
+    at call (/Users/mac/Projects/event-api/src/event/services/event.service.js:2:1)
+    at Generator.tryCatch (/Users/mac/Projects/event-api/src/event/services/event.service.js:2:1)
+    at Generator._invoke [as next] (/Users/mac/Projects/event-api/src/event/services/event.service.js:2:1)
+    at asyncGeneratorStep (/Users/mac/Projects/event-api/src/event/services/event.service.js:2:1)
+    at asyncGeneratorStep (/Users/mac/Projects/event-api/src/event/services/event.service.js:2:1)
+2024-10-04T10:28:04.229Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:45:03.355Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:45:41.468Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:45:55.388Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:46:13.510Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:46:14.636Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:46:19.694Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:49:49.704Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:52:12.581Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:52:12.582Z [31merror[39m: RabbitMQ is not available, continuing without it. Will retry...
+2024-10-04T10:52:14.585Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:52:14.586Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:16.588Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:52:16.588Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:18.591Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:52:18.592Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:18.808Z [31merror[39m: ConflictError: User with email already exists
+    at UserService.createUser (file:///Users/mac/Projects/event-api/src/user/service/user.service.js:16:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async signup (file:///Users/mac/Projects/event-api/src/user/controllers/signup.js:14:22)
+2024-10-04T10:52:20.596Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:52:20.597Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:22.603Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:52:22.604Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:24.607Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:52:24.608Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:26.611Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:52:26.611Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:28.615Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:52:28.616Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:30.618Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:52:30.618Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:32.623Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:52:32.623Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:34.627Z [31merror[39m: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2024-10-04T10:52:34.627Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:36.630Z [31merror[39m: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2024-10-04T10:52:36.630Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:38.633Z [31merror[39m: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2024-10-04T10:52:38.633Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:40.667Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:42.683Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:44.699Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:46.711Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:48.722Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:50.735Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:52.752Z [31merror[39m: Failed to reconnect to RabbitMQ, will retry in 2 seconds.
+2024-10-04T10:52:53.501Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-04T10:53:34.292Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-04T10:53:44.780Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:53:44.781Z [31merror[39m: RabbitMQ is not available, continuing without it. Will retry...
+2024-10-04T10:53:46.785Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:53:48.788Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:53:50.791Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:53:52.798Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:53:54.801Z [31merror[39m: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2024-10-04T10:53:56.804Z [31merror[39m: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2024-10-04T10:54:07.765Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-04T10:57:46.962Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:57:46.963Z [31merror[39m: RabbitMQ is not available, continuing without it. Will retry...
+2024-10-04T10:57:49.968Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:57:52.974Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:57:55.978Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:57:58.981Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:58:01.985Z [31merror[39m: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2024-10-04T10:58:04.988Z [31merror[39m: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2024-10-04T10:59:23.589Z [31merror[39m: Error: Unexpected close
+    at succeed (/Users/mac/Projects/event-api/node_modules/amqplib/lib/connection.js:229:15)
+    at onOpenOk (/Users/mac/Projects/event-api/node_modules/amqplib/lib/connection.js:211:7)
+    at /Users/mac/Projects/event-api/node_modules/amqplib/lib/connection.js:114:11
+    at /Users/mac/Projects/event-api/node_modules/amqplib/lib/connection.js:107:11
+    at Socket.recv (/Users/mac/Projects/event-api/node_modules/amqplib/lib/connection.js:456:9)
+    at Object.onceWrapper (node:events:634:28)
+    at Socket.emit (node:events:520:28)
+    at emitReadable_ (node:internal/streams/readable:832:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:81:21)
+2024-10-04T10:59:38.427Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:59:38.427Z [31merror[39m: RabbitMQ is not available, continuing without it. Will retry...
+2024-10-04T10:59:41.433Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:59:41.433Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:29:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:87:9)
+2024-10-04T10:59:44.440Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:59:44.440Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:29:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:87:9)
+2024-10-04T10:59:47.445Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:59:47.446Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:29:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:87:9)
+2024-10-04T10:59:50.452Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T10:59:50.452Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:29:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:87:9)
+2024-10-04T10:59:53.455Z [31merror[39m: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2024-10-04T10:59:53.455Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:29:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:87:9)
+2024-10-04T10:59:56.458Z [31merror[39m: Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:218:20)
+2024-10-04T10:59:56.458Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:29:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:87:9)
+2024-10-04T10:59:59.491Z [31merror[39m: ReferenceError: ReservationConsumer is not defined
+    at Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:89:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-04T11:00:34.914Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-04T11:00:46.513Z [31merror[39m: token expired
+2024-10-04T11:01:09.542Z [31merror[39m: ConflictError: You have already reserved a ticket for this event
+    at createReservation (file:///Users/mac/Projects/event-api/src/reservation/controller/reservation.controller.js:37:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2024-10-04T11:02:33.397Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-04T11:27:06.470Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-04T11:28:35.334Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-04T11:35:09.500Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-04T12:12:43.347Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:12:43.348Z [31merror[39m: RabbitMQ is not available, continuing without it. Will retry...
+2024-10-04T12:12:46.353Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:12:46.354Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:12:49.359Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:12:49.360Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:12:52.366Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:12:52.367Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:12:55.371Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:12:55.371Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:12:58.379Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:12:58.379Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:01.382Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:01.382Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:04.386Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:04.386Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:07.389Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:07.390Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:10.392Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:10.392Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:13.395Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:13.395Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:16.398Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:16.399Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:19.403Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:19.404Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:22.405Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:22.406Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:25.408Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:25.408Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:28.412Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:28.412Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:31.414Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:31.414Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:34.418Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:34.419Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:37.422Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:37.422Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:40.427Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:40.427Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:43.430Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:43.430Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:46.434Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:46.434Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:49.437Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:49.437Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:52.439Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:52.440Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:55.441Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:55.442Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:13:58.445Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:13:58.445Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:14:01.450Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:14:01.451Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:14:04.454Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:14:04.454Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:14:07.459Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:14:07.460Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:14:10.465Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:14:10.466Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:14:13.469Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:14:13.469Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:14:16.472Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:14:16.473Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:14:19.476Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:14:19.477Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:14:22.480Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:14:22.480Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:14:25.482Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:14:25.483Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:14:28.484Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:14:28.484Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:14:31.486Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:14:31.487Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:14:34.578Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:14:34.580Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T12:14:37.585Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T12:14:37.586Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T13:12:12.732Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T13:12:12.733Z [31merror[39m: RabbitMQ is not available, continuing without it. Will retry...
+2024-10-04T13:12:15.740Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T13:12:15.740Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T13:12:18.747Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T13:12:18.748Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T13:12:21.753Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T13:12:21.755Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T13:12:24.155Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-04T13:12:41.146Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T13:12:41.146Z [31merror[39m: RabbitMQ is not available, continuing without it. Will retry...
+2024-10-04T13:12:44.152Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T13:12:44.153Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T13:12:47.158Z [31merror[39m: AggregateError [ECONNREFUSED]: 
+    at internalConnectMultiple (node:net:1117:18)
+    at afterConnectMultiple (node:net:1684:7)
+2024-10-04T13:12:47.158Z [31merror[39m: Error: error connecting to RabbitMQ
+    at RabbitMQManager.connect (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:30:13)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Timeout._onTimeout (file:///Users/mac/Projects/event-api/src/core/utils/rabbitmq.js:88:9)
+2024-10-04T13:12:49.167Z [31merror[39m: UNEXPECTED_APP_ERROR
+2024-10-04T13:14:32.923Z [31merror[39m: UNEXPECTED_APP_ERROR

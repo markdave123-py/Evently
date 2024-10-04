@@ -1,0 +1,50 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:14.5
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_USER: "postgres"
+      POSTGRES_PASSWORD: zyxwvu09876
+      POSTGRES_DB: "event_man"
+
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+    ports:
+      - "5433:5432"
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    restart: always
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+    volumes:
+      - rabbitmq-data:/var/lib/rabbitmq
+
+  app:
+    build: .
+    container_name: event-management
+    ports:
+      - "3000:3000"
+
+    depends_on:
+      - postgres
+      - rabbitmq
+
+    env_file:
+      - .env.compose
+
+    volumes:
+      - .:/usr/src/app
+
+    command: npm start
+
+volumes:
+  rabbitmq-data:
+  postgres-data:
