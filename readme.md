@@ -48,9 +48,11 @@ The **Event Management API** is a backend system that handles user authenticatio
 
    Clone the project from your version control system.
 
-2. **Create a `.env` file**: Copy the `.env.example` and configure your environment variables.
+2. **Create a `.env`  and `.env.compose`(for docker compose) files**: Copy the `.env.example` and configure your environment variables.
 
 3. **Build and run the Docker containers**:
+
+   Use the `docker-compose --env-file .env.compose up`
 
    Build and start all containers defined in the Docker Compose file.
 
