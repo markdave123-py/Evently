@@ -164,4 +164,4 @@ The application uses **Jest** for unit and integration tests.
 
    Run `npm run test:coverage` to get test coverage reports.
 
-## API Deployed Link [Evently](http://102.37.149.66:3000/)
+## API Deployed Link [Evently](http://102.37.149.66:3000/api/health)
