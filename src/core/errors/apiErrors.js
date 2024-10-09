@@ -11,10 +11,8 @@ class ApiError extends Error {
     super(message);
     this.name = this.constructor.name;
 
-    // Ensure proper prototype chain
     Object.setPrototypeOf(this, ApiError.prototype);
 
-    // Abstract properties (use methods to simulate abstract getters)
     this._statusCode = null;
     this._message = message;
     this._details = null;

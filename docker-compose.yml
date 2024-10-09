@@ -28,7 +28,7 @@ services:
       - rabbitmq-data:/var/lib/rabbitmq
 
   app:
-    build: .
+    image: nwaekwudavid/evently:1.1
     container_name: event-management
     ports:
       - "3000:3000"
@@ -37,8 +37,19 @@ services:
       - postgres
       - rabbitmq
 
-    env_file:
-      - .env.compose
+    environment:
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_NAME: ${DB_NAME}
+      DB_HOST: ${DB_HOST}
+      DB_PORT: ${DB_PORT}
+      DB_TYPE: ${DB_TYPE}
+      RABBITMQ_URL: ${RABBITMQ_URL}
+      ACCESS_TOKEN_SECRET: ${ACCESS_TOKEN_SECRET}
+      REFRESH_TOKEN_SECRET: ${REFRESH_TOKEN_SECRET}
+      ACCESS_TOKEN_EXPIRATION_TIME: ${ACCESS_TOKEN_EXPIRATION_TIME}
+      REFRESH_TOKEN_EXPIRATION_TIME: ${REFRESH_TOKEN_EXPIRATION_TIME}
+      ENCRYPTOR_SECRET_KEY: ${ENCRYPTOR_SECRET_KEY}
 
     volumes:
       - .:/usr/src/app
