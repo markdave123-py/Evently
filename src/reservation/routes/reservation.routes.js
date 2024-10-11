@@ -7,7 +7,7 @@ import { authGuard } from "../../auth/authGuard/currentUser.js";
 export const reservationRouter = Router();
 
 reservationRouter.post(
-  "/create",
+  "/book",
   authGuard.guard,
   validateSchema(reservationSchema),
   ReservationController.createReservation

@@ -56,7 +56,7 @@ export class ReservationController {
         });
       }
     } catch (error) {
-      next(
+      next( 
         error instanceof ApiError
           ? error
           : new InternalServerError(error.message)

@@ -5,12 +5,12 @@ import { logger } from "../../core/loggers/logger.js";
 import { UnAuthorizedError } from "../../core/errors/unAuthorizedError.js";
 import { AppMessages } from "../../core/common/appmessages.js";
 
-// Function to generate a JWT token
+
 const generateToken = ({ data, secret, expiresIn }) => {
   return jwt.sign(data, secret, { expiresIn });
 };
 
-// Function to verify a JWT token
+
 const verifyToken = (token, secret) => {
   try {
     return jwt.verify(token, secret);
@@ -25,7 +25,7 @@ const verifyToken = (token, secret) => {
   }
 };
 
-// Function to generate access and refresh tokens
+
 const getTokens = async (data) => {
   return await Promise.all([
     generateAccessToken(data),
@@ -33,7 +33,7 @@ const getTokens = async (data) => {
   ]);
 };
 
-// Function to generate an access token
+
 const generateAccessToken = (data) => {
   const { accessTokenExpTime, accessTokenSecret } = config.auth;
   const accessToken = generateToken({
@@ -44,7 +44,7 @@ const generateAccessToken = (data) => {
   return encrypt(accessToken);
 };
 
-// Function to generate a refresh token
+
 const generateRefreshToken = (data) => {
   const { refreshTokenExpTime, refreshTokenSecret } = config.auth;
   const refreshToken = generateToken({
@@ -55,7 +55,7 @@ const generateRefreshToken = (data) => {
   return encrypt(refreshToken);
 };
 
-// Function to extract token details
+
 const extractTokenDetails = async (encryptedToken, secret) => {
   const token = decrypt(encryptedToken);
   const tokenDetails = verifyToken(token, secret);
@@ -64,5 +64,4 @@ const extractTokenDetails = async (encryptedToken, secret) => {
 
 
 
-// Export functions
 export { getTokens, extractTokenDetails };
