@@ -28,7 +28,7 @@ services:
       - rabbitmq-data:/var/lib/rabbitmq
 
   app:
-    image: nwaekwudavid/evently:1.1
+    image: nwaekwudavid/evently:1.2
     container_name: event-management
     ports:
       - "3000:3000"
