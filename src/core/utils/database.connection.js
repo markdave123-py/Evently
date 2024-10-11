@@ -7,7 +7,6 @@ export const initializeDbConnection = async () => {
 
     await sequelizeConn.sync({ alter: true });
 
-    // await defaultAdmin();
 
     logger.info("Connection has been established successfully.");
 

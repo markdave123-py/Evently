@@ -10,4 +10,4 @@ export const eventRouter = Router();
 
 
 eventRouter.post('/initialize', authGuard.guard, validateSchema(eventValidator), EventController.createEvent);
-eventRouter.get('/:eventId', EventController.getEvent);
+eventRouter.get('/status/:eventId', EventController.getEvent);

@@ -114,12 +114,12 @@ The **Event Management API** is a backend system that handles user authenticatio
   - Request Body: `{ "name": "Event Name", "totalTickets": 50 }`
   - Response: `{ "message": "Event created successfully", "data": {...} }`
 
-- **GET** `/api/event/:eventId`
+- **GET** `/api/event/status/:eventId`
   - Response: `{ "message": "Event fetched successfully", "data": {...} }`
 
 ### Reservation
 
-- **POST** `/api/reservation/create`
+- **POST** `/api/reservation/book`
 
   - Request Body: `{ "eventId": "event-uuid" }`
   - Response: `{ "message": "Reservation queued successfully", "status": "booked" }`

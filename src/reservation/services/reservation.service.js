@@ -10,6 +10,7 @@ import e from "express";
 
 export class ReservationService {
   static async createReservation(eventId, userId) {
+    
     const transaction = await sequelizeConn.transaction();
 
     try {
